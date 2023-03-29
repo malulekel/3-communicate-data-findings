@@ -14,19 +14,18 @@ In the exploration the following has been shown:
 
 - Loan Term: The length of time a borrower has to repay a loan affects the outcome of the loan. Longer loan terms may provide more flexibility for the borrower, but may also increase their risk of defaulting.This will be compared to another factor in bivariate so we can come to a conclusion on how it affects repayment etc.
 
+- Observing the employment status data the the borrower who are employed and who work full-time have a higer rating than others meaning employment does play a major role when it comes to a loan status being approved and it does play important factor.
+
+- It has come to light that the employment and Rating is showing the distribution of ProsperRating for each value of EmploymentStatus. We can see that for most EmploymentStatus categories, the majority of loans have a ProsperRating of C or D. However, there are some differences between categories: for example, self-employed borrowers are more likely to have a ProsperRating of HR (high-risk) than borrowers who are employed or retired.
+
 -Customers who have a credit grade of C, D and B have a higher chance of getting a loan whereas NC has a lower chance of getting a loan.A higher creditscore  indicate a lower risk of default and, therefore, a higher likelihood of loan approval.
 
 -From the bar graph people who are employed are in high numbers compared to a person who is not employed, retired or works part-time and the rest of the employment status.Status which is showing full-time and self employes is showing a higher rating meaning employment does 
 play a major role when it comes to a loan status being approved.
 
--This graph shows a PairGrid plot with multiple variables from the Prosper loan dataset. The variables used in this plot are DebtToIncomeRatio, ProsperRating (Alpha), and Term. The upper triangle of the grid contains scatterplots showing the relationship between the variables, while the diagonal contains histograms showing the distribution of each variable. The lower triangle contains violin plots, which are similar to box plots but show the distribution of data in a more detailed way.
+- The debt to income ratio and Borrower APR the plot show a relation between the two variables, when one increase the other also increase. This suggest that borrowers with a higher DebtToIncomeRatio the more likely to get higher APR.
 
-From the scatterplots, we can see that DebtToIncomeRatio and ProsperRating (Alpha) are weakly negatively correlated, meaning that as the debt-to-income ratio increases, the Prosper rating tends to decrease slightly. The scatterplot of ProsperRating (Alpha) and Term shows that longer-term oans tend to have higher ratings, while shorter-term loans tend to have lower ratings.
-
-The histograms show that DebtToIncomeRatio is slightly skewed to the right, indicating that most borrowers have a relatively low debt-to-income ratio. ProsperRating (Alpha) is roughly normally distributed, with a peak in the B rating category. The histogram for Term shows that the most common loan term is 36 months.
-
-The violin plots in the lower triangle show the distribution of each variable. The DebtToIncomeRatio plot is skewed to the right, with a few borrowers having very high ratios. The ProsperRating (Alpha) plot shows that the distribution is wider in the lower rating categories, indicating that there is more variability in borrower characteristics among those with lower ratings. Finally, the Term plot shows that the 36-month term is the most common, with a few borrowers taking out loans for longer or shorter terms.  
-
+- In term and employment the heatmap We can say that the graph suggets that most borrowers have a loan term of 36 months and are employed full-time or have another source of income.
 
 ### Key insights 
 
