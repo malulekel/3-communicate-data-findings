@@ -12,20 +12,20 @@ The main purposes of this project are to summarize the characteristics of  varia
 
 In the exploration the following has been shown:  
 
-- Loan Term: The length of time a borrower has to repay a loan affects the outcome of the loan. Longer loan terms may provide more flexibility for the borrower, but may also increase their risk of defaulting.This will be compared to another factor in bivariate so we can come to a conclusion on how it affects repayment etc.
-
 - Observing the employment status data the the borrower who are employed and who work full-time have a higer rating than others meaning employment does play a major role when it comes to a loan status being approved and it does play important factor.
 
-- It has come to light that the employment and Rating is showing the distribution of ProsperRating for each value of EmploymentStatus. We can see that for most EmploymentStatus categories, the majority of loans have a ProsperRating of C or D. However, there are some differences between categories: for example, self-employed borrowers are more likely to have a ProsperRating of HR (high-risk) than borrowers who are employed or retired.
+- In the a-axis the heatmap represent term and in the y-axis it represent EmploymentStatus.When you observe this heatmap uses color to represent the extent of the mean loan amount and the higher values are darker shades of green. In the cells of a heatmap the amounts in it show the mean loan amount for that specific category.
 
--Customers who have a credit grade of C, D and B have a higher chance of getting a loan whereas NC has a lower chance of getting a loan.A higher creditscore  indicate a lower risk of default and, therefore, a higher likelihood of loan approval.
+Analysing the data I can see that the heatmap reveals that customers who are employedor full-time employed tend to have higher loans for longer loan terms while customers are not employed or have other employment statuses tend to have a smaller loan not in a longer term.So yes employment have an impact to both variables.
+
+- It has come to light that the employment and Rating is showing the distribution of ProsperRating (Alpha) for each value of EmploymentStatus. We can see that for most EmploymentStatus categories, the majority of loans have a ProsperRating of C or D. However, there are some differences between categories: for example, self-employed borrowers are more likely to have a ProsperRating of HR (high-risk) than borrowers who are employed or retired.
 
 -From the bar graph people who are employed are in high numbers compared to a person who is not employed, retired or works part-time and the rest of the employment status.Status which is showing full-time and self employes is showing a higher rating meaning employment does 
 play a major role when it comes to a loan status being approved.
 
 - The debt to income ratio and Borrower APR the plot show a relation between the two variables, when one increase the other also increase. This suggest that borrowers with a higher DebtToIncomeRatio the more likely to get higher APR.
 
-- In term and employment the heatmap We can say that the graph suggets that most borrowers have a loan term of 36 months and are employed full-time or have another source of income.
+- Prosper Score: The Prosper Score is a proprietary scoring system that assesses the risk of a loan. The rating from D-A is a good rating tand the outcome is showing with the ones who are getting the loan compared to other bad ratings.
 
 ### Key insights 
 
